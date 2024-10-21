@@ -21,7 +21,9 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.material3.Text
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.draw.clip
+
 
 @Preview(showBackground = true)
 @Composable
@@ -63,7 +65,7 @@ fun HeaderSection() {
                 Icon(
                     Icons.Filled.Check,
                     contentDescription = null,
-                    modifier = Modifier.size(30.dp)
+                    modifier = Modifier.size(20.dp).align(Alignment.BottomEnd).background(color = Color.Blue)
                 )
             }
             Column(
