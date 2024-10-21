@@ -32,11 +32,13 @@ fun BelajarLayout(
         modifier = modifier.fillMaxSize()
     ) {
         HeaderSection()
-        DetailMhs(
-            param = "Nama",
-            argu = "Ridwan Hidayatullah"
-        )
-        DetailMhs(param = "Nim", argu = "20220140134")
+        DetailMhs(param = "Nama", argu = "Ridwan Hidayatullah")
+        DetailMhs(param = "NIM", argu = "20220140134")
+        DetailMhs(param = "Prodi", argu = "Teknologi Informasi")
+        DetailMhs(param = "Fakultas", argu = "Fakultas Teknik")
+        DetailMhs(param = "Universitas", argu = "Universitas Muhammadiyah Yogyakarta")
+        DetailMhs(param = "Alamat", argu = "Jl. Lingkar Selatan, Tamantirto, Kasihan, Bantul, Yogyakarta")
+        DetailMhs(param = "Email", argu = "ridwanhh10@example.com")
     }
 }
 
